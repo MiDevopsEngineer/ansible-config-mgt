@@ -5,7 +5,7 @@
     - always
 
 - name: include env-vars file
-  import_palybook: ../dynamic-assignments/env-vars.yml
+  import_playbook: ../dynamic-assignments/env-vars.yml
   tags:
     - always
 
