@@ -10,10 +10,10 @@
     - always
 
 - name: import database file
-  import_playbook: ../static-assignments/db.yml
+  import_playbook: ../static-assignments/loadbalancers.yml
 
 - name: import webserver file
-  import_playbook: ../static-assignments/webservers.yml
+  import_playbook: ../static-assignments/uat-webservers.yml
 
 - name: Loadbalancers assignment
   import_playbook: ../static-assignments/loadbalancers.yml
